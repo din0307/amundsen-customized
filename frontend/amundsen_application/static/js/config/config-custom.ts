@@ -12,30 +12,30 @@ const configCustom: AppConfigCustom = {
     plugins: [],
   },
   mailClientFeatures: {
-    feedbackEnabled: false,
-    notificationsEnabled: false,
+    feedbackEnabled: true,
+    notificationsEnabled: true,
   },
   indexDashboards: {
-    enabled: false,
+    enabled: true,
   },
   indexUsers: {
-    enabled: false,
+    enabled: true,
   },
   indexFeatures: {
-    enabled: false,
+    enabled: true,
   },
   userIdLabel: 'email address',
   issueTracking: {
-    enabled: false,
+    enabled: true,
     issueDescriptionTemplate: '',
     projectSelection: {
-      enabled: false,
+      enabled: true,
       title: 'Issue project key (optional)',
       inputHint: '',
     },
   },
   announcements: {
-    enabled: false,
+    enabled: true,
   },
   productTour: {},
 };
